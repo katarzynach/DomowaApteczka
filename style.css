@@ -1,0 +1,287 @@
+html
+{
+	position:fixed;
+    	top:0;
+    	bottom:0;
+    	left:0;
+    	right:0;
+}
+
+body
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	position:fixed;
+    	top:0;
+    	bottom:0;
+    	left:0;
+    	right:0;
+}
+
+#container
+{
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+.rectangle
+{
+	
+	margin: 20px;
+	text-align:center;
+}
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+  height:700px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+
+}
+#table-wrapper table * {
+  background:white;
+  color:black;
+}
+#table-wrapper table thead th .text {
+  position:absolute;   
+  top:-20px;
+  z-index:2;
+  height:20px;
+  width:35%;
+  border:1px solid red;
+}
+
+
+.register {
+  	width: 500px;
+	background-color: #ffffff;
+  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  	margin: 70px auto;
+	font-size: 15px;
+	padding: 30px 50px;
+}
+
+#logo{
+	
+
+}
+
+
+.btn_1
+{
+	background-color: #00008B;
+  	border: none;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 15px;
+}
+
+.btn_2
+{
+	background-color: #00008B;
+  	border: none;
+  	color: white;
+  	padding: 15px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 20px;
+}
+
+#log
+{
+	width: 450px;
+	background-color: #ffffff;
+  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+  	margin: 70px auto;
+	font-size: 15px;
+	padding: 14px 25px;
+}
+
+
+
+.more
+{
+	font-size: 15px;
+
+}
+.more a:link
+{
+  	background-color: #00008B;
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+
+}
+.more a:visited 
+{
+  	background-color: #00008B;
+  	color: white;
+ 	 padding: 14px 25px;
+  	text-align: center;
+ 	 text-decoration: none;
+ 	 display: inline-block;
+}
+
+.more a:hover 
+{
+  	background-color: #483D8B;
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+ 	display: inline-block;
+}
+
+.more a:active 
+{
+  	background-color: #00008B;
+  	color: white;
+  	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+
+.stopka
+{
+	font-size: 15px;
+
+}
+.stopka a:link
+{
+  background-color: #00008B;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+
+.stopka a:visited 
+{
+  background-color: #00008B;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.stopka a:hover 
+{
+  background-color: #483D8B;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.stopka a:active 
+{
+  background-color: #00008B;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.navtop
+{
+	background-color: #2f3947;
+	height: 60px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: center;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #eaebed;
+}
+body.loggedin {
+	background-color: #f3f4f7;
+}
+#loggedin{background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+.content{
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+
+
+
+}
+.btn-group button {
+  background-color: #483D8B; 
+  border: 1px solid blue; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color:#2f3947;
+}
+.issue{
+	height:400px;
+}
